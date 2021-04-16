@@ -1,0 +1,1205 @@
+{"message":"running port 3000","level":"info"}
+info: running port 3000
+info: running port 3000
+[2021-04-03T19:41:56.140Z] info running port 3000
+[2021-04-03T19:42:07.460Z] info running port 3000
+[2021-04-03T22:22:57.637Z] info running port 3000
+[2021-04-03T22:23:36.721Z] info running port 3000
+[2021-04-03T22:23:43.927Z] error something happen
+[2021-04-03T22:24:28.699Z] info running port 3000
+[2021-04-03T22:24:37.077Z] info running port 3000
+[2021-04-03T22:25:05.075Z] info running port 3000
+[2021-04-03T22:25:59.783Z] info running port 3000
+[2021-04-03T22:26:22.176Z] warn something happen
+[2021-04-03T22:28:10.094Z] [33mwarn[39m something happen
+[2021-04-03T22:28:28.814Z] warn something happen
+[2021-04-03T22:31:32.962Z] warn something happen
+[2021-04-03T22:35:04.432Z] warn something happen
+[2021-04-03T22:35:04.434Z] info something happen
+[2021-04-03T22:35:04.434Z] error something happen
+[2021-04-03T22:35:30.554Z] warn something happen
+[2021-04-03T22:35:30.557Z] info something happen
+[2021-04-03T22:35:30.558Z] error something happen
+[2021-04-03 19:36:23] warn something happen
+[2021-04-03 19:36:23] info something happen
+[2021-04-03 19:36:23] error something happen
+[2021-04-03 19:36:52] warn something happen
+[2021-04-03 19:36:52] info something happen
+[2021-04-03 19:36:52] error something happen
+[2021-04-03 19:39:15] error ErrorHandler passed as message
+[2021-04-03 19:39:15] warn ErrorHandler passed as info
+[2021-04-03 19:39:15] error ErrorHandler passed as info
+[2021-04-03 19:41:35] error ErrorHandler passed as message
+[2021-04-03 19:42:06] error ErrorHandler passed as message
+[2021-04-03 19:42:06] error ErrorHandler: sarasa
+[2021-04-03 19:42:45] error ErrorHandler: sarasa
+[2021-04-15 12:54:16] error page not found
+[2021-04-15 12:58:28] error page not found
+[2021-04-15 12:59:13] error user not found
+[2021-04-15 13:00:06] error user not found
+[2021-04-15 13:00:13] error password not matched
+[2021-04-15 13:01:42] error password not matched
+[2021-04-15 13:01:46] info user access
+[2021-04-15 13:02:47] info user access
+[2021-04-15 13:37:36] error User just registered.
+[2021-04-15 15:32:18] error User just registered.
+[2021-04-15 15:32:51] error User just registered.
+[2021-04-15 15:34:01] error User just registered.
+[2021-04-15 15:41:00] error can't access
+[2021-04-15 15:49:29] info email sent to nicoledesma36@gmail.com: 01000178d6dda64a-a8cb536a-61d7-47db-b0cc-6e2304dec9da-000000
+[2021-04-16 06:29:45] error access token is required
+[2021-04-16 06:37:06] error uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/api/middlewares/authMidd.ts[0m:[93m17[0m:[93m12[0m - [91merror[0m[90m TS2339: [0mProperty 'id' does not exist on type 'string | { [key: string]: any; } | null'.
+
+[7m17[0m     const {id} = data
+[7m  [0m [91m           ~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/api/middlewares/authMidd.ts[0m:[93m17[0m:[93m12[0m - [91merror[0m[90m TS2339: [0mProperty 'id' does not exist on type 'string | { [key: string]: any; } | null'.
+
+[7m17[0m     const {id} = data
+[7m  [0m [91m           ~~[0m
+
+    at createTSError (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:513:12)
+    at reportTSError (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:517:19)
+    at getOutput (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:752:36)
+    at Object.compile (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:968:32)
+    at Module.m._compile (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:1056:42)
+    at Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Object.require.extensions.(anonymous function) [as .ts] (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:1059:12)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+[2021-04-16 06:38:46] error uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/api/middlewares/authMidd.ts[0m:[93m17[0m:[93m12[0m - [91merror[0m[90m TS2339: [0mProperty 'id' does not exist on type 'string | { [key: string]: any; } | null'.
+
+[7m17[0m     const {id} = data
+[7m  [0m [91m           ~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/api/middlewares/authMidd.ts[0m:[93m17[0m:[93m12[0m - [91merror[0m[90m TS2339: [0mProperty 'id' does not exist on type 'string | { [key: string]: any; } | null'.
+
+[7m17[0m     const {id} = data
+[7m  [0m [91m           ~~[0m
+
+    at createTSError (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:513:12)
+    at reportTSError (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:517:19)
+    at getOutput (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:752:36)
+    at Object.compile (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:968:32)
+    at Module.m._compile (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:1056:42)
+    at Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Object.require.extensions.(anonymous function) [as .ts] (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:1059:12)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+[2021-04-16 06:39:15] error uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/api/middlewares/authMidd.ts[0m:[93m17[0m:[93m12[0m - [91merror[0m[90m TS2339: [0mProperty 'id' does not exist on type 'string | { [key: string]: any; } | null'.
+
+[7m17[0m     const {id} = data
+[7m  [0m [91m           ~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/api/middlewares/authMidd.ts[0m:[93m17[0m:[93m12[0m - [91merror[0m[90m TS2339: [0mProperty 'id' does not exist on type 'string | { [key: string]: any; } | null'.
+
+[7m17[0m     const {id} = data
+[7m  [0m [91m           ~~[0m
+
+    at createTSError (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:513:12)
+    at reportTSError (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:517:19)
+    at getOutput (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:752:36)
+    at Object.compile (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:968:32)
+    at Module.m._compile (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:1056:42)
+    at Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Object.require.extensions.(anonymous function) [as .ts] (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:1059:12)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+[2021-04-16 06:39:42] error uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/api/middlewares/authMidd.ts[0m:[93m17[0m:[93m12[0m - [91merror[0m[90m TS2339: [0mProperty 'email' does not exist on type 'string | { [key: string]: any; } | null'.
+
+[7m17[0m     const {email} = data
+[7m  [0m [91m           ~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/api/middlewares/authMidd.ts[0m:[93m17[0m:[93m12[0m - [91merror[0m[90m TS2339: [0mProperty 'email' does not exist on type 'string | { [key: string]: any; } | null'.
+
+[7m17[0m     const {email} = data
+[7m  [0m [91m           ~~~~~[0m
+
+    at createTSError (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:513:12)
+    at reportTSError (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:517:19)
+    at getOutput (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:752:36)
+    at Object.compile (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:968:32)
+    at Module.m._compile (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:1056:42)
+    at Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Object.require.extensions.(anonymous function) [as .ts] (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:1059:12)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+[2021-04-16 07:53:39] error uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/api/middlewares/authMidd.ts[0m:[93m16[0m:[93m29[0m - [91merror[0m[90m TS2345: [0mArgument of type 'string | undefined' is not assignable to parameter of type 'string'.
+  Type 'undefined' is not assignable to type 'string'.
+
+[7m16[0m     const data = jwt.decode(accessToken);
+[7m  [0m [91m                            ~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/api/middlewares/authMidd.ts[0m:[93m16[0m:[93m29[0m - [91merror[0m[90m TS2345: [0mArgument of type 'string | undefined' is not assignable to parameter of type 'string'.
+  Type 'undefined' is not assignable to type 'string'.
+
+[7m16[0m     const data = jwt.decode(accessToken);
+[7m  [0m [91m                            ~~~~~~~~~~~[0m
+
+    at createTSError (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:513:12)
+    at reportTSError (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:517:19)
+    at getOutput (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:752:36)
+    at Object.compile (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:968:32)
+    at Module.m._compile (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:1056:42)
+    at Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Object.require.extensions.(anonymous function) [as .ts] (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:1059:12)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+[2021-04-16 08:30:56] error uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/api/middlewares/authMidd.ts[0m:[93m17[0m:[93m12[0m - [91merror[0m[90m TS2339: [0mProperty 'email' does not exist on type 'string | { [key: string]: any; } | null'.
+
+[7m17[0m     const {email} = data
+[7m  [0m [91m           ~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/api/middlewares/authMidd.ts[0m:[93m17[0m:[93m12[0m - [91merror[0m[90m TS2339: [0mProperty 'email' does not exist on type 'string | { [key: string]: any; } | null'.
+
+[7m17[0m     const {email} = data
+[7m  [0m [91m           ~~~~~[0m
+
+    at createTSError (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:513:12)
+    at reportTSError (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:517:19)
+    at getOutput (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:752:36)
+    at Object.compile (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:968:32)
+    at Module.m._compile (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:1056:42)
+    at Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Object.require.extensions.(anonymous function) [as .ts] (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:1059:12)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+[2021-04-16 08:32:18] error uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/api/middlewares/authMidd.ts[0m:[93m17[0m:[93m25[0m - [91merror[0m[90m TS2339: [0mProperty 'email' does not exist on type 'string | { [key: string]: any; }'.
+  Property 'email' does not exist on type 'string'.
+
+[7m17[0m     const email = data!.email
+[7m  [0m [91m                        ~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/api/middlewares/authMidd.ts[0m:[93m17[0m:[93m25[0m - [91merror[0m[90m TS2339: [0mProperty 'email' does not exist on type 'string | { [key: string]: any; }'.
+  Property 'email' does not exist on type 'string'.
+
+[7m17[0m     const email = data!.email
+[7m  [0m [91m                        ~~~~~[0m
+
+    at createTSError (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:513:12)
+    at reportTSError (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:517:19)
+    at getOutput (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:752:36)
+    at Object.compile (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:968:32)
+    at Module.m._compile (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:1056:42)
+    at Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Object.require.extensions.(anonymous function) [as .ts] (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:1059:12)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+[2021-04-16 08:33:19] error uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/api/middlewares/authMidd.ts[0m:[93m16[0m:[93m11[0m - [91merror[0m[90m TS2322: [0mType 'string | { [key: string]: any; } | null' is not assignable to type '{ id: number; email: string; ia: number; exp: number; }'.
+  Type 'null' is not assignable to type '{ id: number; email: string; ia: number; exp: number; }'.
+
+[7m16[0m     const data:{id:number, email:string, ia:number, exp: number} = jwt.decode(accessToken!);
+[7m  [0m [91m          ~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/api/middlewares/authMidd.ts[0m:[93m16[0m:[93m11[0m - [91merror[0m[90m TS2322: [0mType 'string | { [key: string]: any; } | null' is not assignable to type '{ id: number; email: string; ia: number; exp: number; }'.
+  Type 'null' is not assignable to type '{ id: number; email: string; ia: number; exp: number; }'.
+
+[7m16[0m     const data:{id:number, email:string, ia:number, exp: number} = jwt.decode(accessToken!);
+[7m  [0m [91m          ~~~~[0m
+
+    at createTSError (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:513:12)
+    at reportTSError (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:517:19)
+    at getOutput (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:752:36)
+    at Object.compile (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:968:32)
+    at Module.m._compile (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:1056:42)
+    at Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Object.require.extensions.(anonymous function) [as .ts] (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:1059:12)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+[2021-04-16 08:37:17] error uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/api/middlewares/authMidd.ts[0m:[93m20[0m:[93m8[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m20[0m     if()
+[7m  [0m [91m       ~[0m
+[96msrc/api/middlewares/authMidd.ts[0m:[93m22[0m:[93m1[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m22[0m }
+[7m  [0m [91m~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/api/middlewares/authMidd.ts[0m:[93m20[0m:[93m8[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m20[0m     if()
+[7m  [0m [91m       ~[0m
+[96msrc/api/middlewares/authMidd.ts[0m:[93m22[0m:[93m1[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m22[0m }
+[7m  [0m [91m~[0m
+
+    at createTSError (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:513:12)
+    at reportTSError (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:517:19)
+    at getOutput (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:752:36)
+    at Object.compile (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:968:32)
+    at Module.m._compile (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:1056:42)
+    at Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Object.require.extensions.(anonymous function) [as .ts] (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:1059:12)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+[2021-04-16 09:47:41] error uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/api/middlewares/authMidd.ts[0m:[93m26[0m:[93m13[0m - [91merror[0m[90m TS2339: [0mProperty 'user' does not exist on type 'Request<ParamsDictionary, any, any, ParsedQs, Record<string, any>>'.
+
+[7m26[0m         req.user = {
+[7m  [0m [91m            ~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/api/middlewares/authMidd.ts[0m:[93m26[0m:[93m13[0m - [91merror[0m[90m TS2339: [0mProperty 'user' does not exist on type 'Request<ParamsDictionary, any, any, ParsedQs, Record<string, any>>'.
+
+[7m26[0m         req.user = {
+[7m  [0m [91m            ~~~~[0m
+
+    at createTSError (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:513:12)
+    at reportTSError (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:517:19)
+    at getOutput (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:752:36)
+    at Object.compile (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:968:32)
+    at Module.m._compile (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:1056:42)
+    at Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Object.require.extensions.(anonymous function) [as .ts] (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:1059:12)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+[2021-04-16 09:47:57] error uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/api/middlewares/authMidd.ts[0m:[93m26[0m:[93m13[0m - [91merror[0m[90m TS2339: [0mProperty 'user' does not exist on type 'Request<ParamsDictionary, any, any, ParsedQs, Record<string, any>>'.
+
+[7m26[0m         req.user = {
+[7m  [0m [91m            ~~~~[0m
+[96msrc/api/middlewares/authMidd.ts[0m:[93m29[0m:[93m9[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m29[0m         }
+[7m  [0m [91m        ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/api/middlewares/authMidd.ts[0m:[93m26[0m:[93m13[0m - [91merror[0m[90m TS2339: [0mProperty 'user' does not exist on type 'Request<ParamsDictionary, any, any, ParsedQs, Record<string, any>>'.
+
+[7m26[0m         req.user = {
+[7m  [0m [91m            ~~~~[0m
+[96msrc/api/middlewares/authMidd.ts[0m:[93m29[0m:[93m9[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m29[0m         }
+[7m  [0m [91m        ~[0m
+
+    at createTSError (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:513:12)
+    at reportTSError (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:517:19)
+    at getOutput (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:752:36)
+    at Object.compile (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:968:32)
+    at Module.m._compile (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:1056:42)
+    at Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Object.require.extensions.(anonymous function) [as .ts] (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:1059:12)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+[2021-04-16 09:48:53] error uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/api/middlewares/authMidd.ts[0m:[93m26[0m:[93m13[0m - [91merror[0m[90m TS2339: [0mProperty 'user' does not exist on type 'Request<ParamsDictionary, any, any, ParsedQs, Record<string, any>>'.
+
+[7m26[0m         req.user = {
+[7m  [0m [91m            ~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/api/middlewares/authMidd.ts[0m:[93m26[0m:[93m13[0m - [91merror[0m[90m TS2339: [0mProperty 'user' does not exist on type 'Request<ParamsDictionary, any, any, ParsedQs, Record<string, any>>'.
+
+[7m26[0m         req.user = {
+[7m  [0m [91m            ~~~~[0m
+
+    at createTSError (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:513:12)
+    at reportTSError (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:517:19)
+    at getOutput (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:752:36)
+    at Object.compile (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:968:32)
+    at Module.m._compile (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:1056:42)
+    at Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Object.require.extensions.(anonymous function) [as .ts] (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:1059:12)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+[2021-04-16 09:49:19] error uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/api/middlewares/authMidd.ts[0m:[93m26[0m:[93m13[0m - [91merror[0m[90m TS2339: [0mProperty 'user' does not exist on type 'Request<ParamsDictionary, any, any, ParsedQs, Record<string, any>>'.
+
+[7m26[0m         req.user = {
+[7m  [0m [91m            ~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/api/middlewares/authMidd.ts[0m:[93m26[0m:[93m13[0m - [91merror[0m[90m TS2339: [0mProperty 'user' does not exist on type 'Request<ParamsDictionary, any, any, ParsedQs, Record<string, any>>'.
+
+[7m26[0m         req.user = {
+[7m  [0m [91m            ~~~~[0m
+
+    at createTSError (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:513:12)
+    at reportTSError (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:517:19)
+    at getOutput (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:752:36)
+    at Object.compile (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:968:32)
+    at Module.m._compile (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:1056:42)
+    at Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Object.require.extensions.(anonymous function) [as .ts] (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:1059:12)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+[2021-04-16 09:49:40] error uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/api/middlewares/authMidd.ts[0m:[93m26[0m:[93m13[0m - [91merror[0m[90m TS2339: [0mProperty 'user' does not exist on type 'Request<ParamsDictionary, any, any, ParsedQs, Record<string, any>>'.
+
+[7m26[0m         req.user = {
+[7m  [0m [91m            ~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/api/middlewares/authMidd.ts[0m:[93m26[0m:[93m13[0m - [91merror[0m[90m TS2339: [0mProperty 'user' does not exist on type 'Request<ParamsDictionary, any, any, ParsedQs, Record<string, any>>'.
+
+[7m26[0m         req.user = {
+[7m  [0m [91m            ~~~~[0m
+
+    at createTSError (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:513:12)
+    at reportTSError (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:517:19)
+    at getOutput (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:752:36)
+    at Object.compile (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:968:32)
+    at Module.m._compile (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:1056:42)
+    at Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Object.require.extensions.(anonymous function) [as .ts] (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:1059:12)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+[2021-04-16 09:50:04] error uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/api/middlewares/authMidd.ts[0m:[93m26[0m:[93m13[0m - [91merror[0m[90m TS2339: [0mProperty 'user' does not exist on type 'Request<ParamsDictionary, any, any, ParsedQs, Record<string, any>>'.
+
+[7m26[0m         req.user = user
+[7m  [0m [91m            ~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/api/middlewares/authMidd.ts[0m:[93m26[0m:[93m13[0m - [91merror[0m[90m TS2339: [0mProperty 'user' does not exist on type 'Request<ParamsDictionary, any, any, ParsedQs, Record<string, any>>'.
+
+[7m26[0m         req.user = user
+[7m  [0m [91m            ~~~~[0m
+
+    at createTSError (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:513:12)
+    at reportTSError (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:517:19)
+    at getOutput (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:752:36)
+    at Object.compile (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:968:32)
+    at Module.m._compile (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:1056:42)
+    at Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Object.require.extensions.(anonymous function) [as .ts] (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:1059:12)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+[2021-04-16 10:19:08] error uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/api/middlewares/authMidd.ts[0m:[93m26[0m:[93m13[0m - [91merror[0m[90m TS2339: [0mProperty 'user' does not exist on type 'Request<ParamsDictionary, any, any, ParsedQs, Record<string, any>>'.
+
+[7m26[0m         req.user = {
+[7m  [0m [91m            ~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/api/middlewares/authMidd.ts[0m:[93m26[0m:[93m13[0m - [91merror[0m[90m TS2339: [0mProperty 'user' does not exist on type 'Request<ParamsDictionary, any, any, ParsedQs, Record<string, any>>'.
+
+[7m26[0m         req.user = {
+[7m  [0m [91m            ~~~~[0m
+
+    at createTSError (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:513:12)
+    at reportTSError (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:517:19)
+    at getOutput (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:752:36)
+    at Object.compile (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:968:32)
+    at Module.m._compile (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:1056:42)
+    at Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Object.require.extensions.(anonymous function) [as .ts] (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:1059:12)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+[2021-04-16 10:20:11] error uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/api/middlewares/authMidd.ts[0m:[93m26[0m:[93m13[0m - [91merror[0m[90m TS2339: [0mProperty 'user' does not exist on type 'Request<ParamsDictionary, any, any, ParsedQs, Record<string, any>>'.
+
+[7m26[0m         req.user = {
+[7m  [0m [91m            ~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/api/middlewares/authMidd.ts[0m:[93m26[0m:[93m13[0m - [91merror[0m[90m TS2339: [0mProperty 'user' does not exist on type 'Request<ParamsDictionary, any, any, ParsedQs, Record<string, any>>'.
+
+[7m26[0m         req.user = {
+[7m  [0m [91m            ~~~~[0m
+
+    at createTSError (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:513:12)
+    at reportTSError (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:517:19)
+    at getOutput (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:752:36)
+    at Object.compile (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:968:32)
+    at Module.m._compile (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:1056:42)
+    at Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Object.require.extensions.(anonymous function) [as .ts] (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:1059:12)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+[2021-04-16 10:20:32] error uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/api/middlewares/authMidd.ts[0m:[93m26[0m:[93m13[0m - [91merror[0m[90m TS2339: [0mProperty 'user' does not exist on type 'Request<ParamsDictionary, any, any, ParsedQs, Record<string, any>>'.
+
+[7m26[0m         req.user = {
+[7m  [0m [91m            ~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/api/middlewares/authMidd.ts[0m:[93m26[0m:[93m13[0m - [91merror[0m[90m TS2339: [0mProperty 'user' does not exist on type 'Request<ParamsDictionary, any, any, ParsedQs, Record<string, any>>'.
+
+[7m26[0m         req.user = {
+[7m  [0m [91m            ~~~~[0m
+
+    at createTSError (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:513:12)
+    at reportTSError (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:517:19)
+    at getOutput (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:752:36)
+    at Object.compile (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:968:32)
+    at Module.m._compile (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:1056:42)
+    at Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Object.require.extensions.(anonymous function) [as .ts] (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:1059:12)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+[2021-04-16 10:22:41] error uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/api/middlewares/authMidd.ts[0m:[93m26[0m:[93m13[0m - [91merror[0m[90m TS2339: [0mProperty 'user' does not exist on type 'Request<ParamsDictionary, any, any, ParsedQs, Record<string, any>>'.
+
+[7m26[0m         req.user = {
+[7m  [0m [91m            ~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/api/middlewares/authMidd.ts[0m:[93m26[0m:[93m13[0m - [91merror[0m[90m TS2339: [0mProperty 'user' does not exist on type 'Request<ParamsDictionary, any, any, ParsedQs, Record<string, any>>'.
+
+[7m26[0m         req.user = {
+[7m  [0m [91m            ~~~~[0m
+
+    at createTSError (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:513:12)
+    at reportTSError (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:517:19)
+    at getOutput (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:752:36)
+    at Object.compile (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:968:32)
+    at Module.m._compile (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:1056:42)
+    at Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Object.require.extensions.(anonymous function) [as .ts] (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:1059:12)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+[2021-04-16 10:23:11] error uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/api/middlewares/authMidd.ts[0m:[93m26[0m:[93m13[0m - [91merror[0m[90m TS2339: [0mProperty 'userId' does not exist on type 'Request<ParamsDictionary, any, any, ParsedQs, Record<string, any>>'.
+
+[7m26[0m         req.userId = user!.id
+[7m  [0m [91m            ~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/api/middlewares/authMidd.ts[0m:[93m26[0m:[93m13[0m - [91merror[0m[90m TS2339: [0mProperty 'userId' does not exist on type 'Request<ParamsDictionary, any, any, ParsedQs, Record<string, any>>'.
+
+[7m26[0m         req.userId = user!.id
+[7m  [0m [91m            ~~~~~~[0m
+
+    at createTSError (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:513:12)
+    at reportTSError (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:517:19)
+    at getOutput (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:752:36)
+    at Object.compile (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:968:32)
+    at Module.m._compile (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:1056:42)
+    at Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Object.require.extensions.(anonymous function) [as .ts] (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:1059:12)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+[2021-04-16 10:23:28] error uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/api/middlewares/authMidd.ts[0m:[93m26[0m:[93m13[0m - [91merror[0m[90m TS2339: [0mProperty 'userId' does not exist on type 'Request<ParamsDictionary, any, any, ParsedQs, Record<string, any>>'.
+
+[7m26[0m         req.userId = user!.id
+[7m  [0m [91m            ~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/api/middlewares/authMidd.ts[0m:[93m26[0m:[93m13[0m - [91merror[0m[90m TS2339: [0mProperty 'userId' does not exist on type 'Request<ParamsDictionary, any, any, ParsedQs, Record<string, any>>'.
+
+[7m26[0m         req.userId = user!.id
+[7m  [0m [91m            ~~~~~~[0m
+
+    at createTSError (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:513:12)
+    at reportTSError (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:517:19)
+    at getOutput (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:752:36)
+    at Object.compile (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:968:32)
+    at Module.m._compile (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:1056:42)
+    at Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Object.require.extensions.(anonymous function) [as .ts] (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:1059:12)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+[2021-04-16 11:28:09] error uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/api/middlewares/authMidd.ts[0m:[93m26[0m:[93m13[0m - [91merror[0m[90m TS2339: [0mProperty 'userId' does not exist on type 'Request<ParamsDictionary, any, any, ParsedQs, Record<string, any>>'.
+
+[7m26[0m         req.userId = user!.id
+[7m  [0m [91m            ~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/api/middlewares/authMidd.ts[0m:[93m26[0m:[93m13[0m - [91merror[0m[90m TS2339: [0mProperty 'userId' does not exist on type 'Request<ParamsDictionary, any, any, ParsedQs, Record<string, any>>'.
+
+[7m26[0m         req.userId = user!.id
+[7m  [0m [91m            ~~~~~~[0m
+
+    at createTSError (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:513:12)
+    at reportTSError (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:517:19)
+    at getOutput (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:752:36)
+    at Object.compile (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:968:32)
+    at Module.m._compile (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:1056:42)
+    at Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Object.require.extensions.(anonymous function) [as .ts] (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:1059:12)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+[2021-04-16 14:56:06] error uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/api/middlewares/authMidd.ts[0m:[93m26[0m:[93m13[0m - [91merror[0m[90m TS2339: [0mProperty 'userId' does not exist on type 'Request<ParamsDictionary, any, any, ParsedQs, Record<string, any>>'.
+
+[7m26[0m         req.userId = user!.id
+[7m  [0m [91m            ~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/api/middlewares/authMidd.ts[0m:[93m26[0m:[93m13[0m - [91merror[0m[90m TS2339: [0mProperty 'userId' does not exist on type 'Request<ParamsDictionary, any, any, ParsedQs, Record<string, any>>'.
+
+[7m26[0m         req.userId = user!.id
+[7m  [0m [91m            ~~~~~~[0m
+
+    at createTSError (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:513:12)
+    at reportTSError (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:517:19)
+    at getOutput (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:752:36)
+    at Object.compile (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:968:32)
+    at Module.m._compile (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:1056:42)
+    at Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Object.require.extensions.(anonymous function) [as .ts] (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:1059:12)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+[2021-04-16 14:58:02] error uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/api/middlewares/authMidd.ts[0m:[93m26[0m:[93m13[0m - [91merror[0m[90m TS2339: [0mProperty 'userId' does not exist on type 'Request<ParamsDictionary, any, any, ParsedQs, Record<string, any>>'.
+
+[7m26[0m         req.userId = user!.id
+[7m  [0m [91m            ~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/api/middlewares/authMidd.ts[0m:[93m26[0m:[93m13[0m - [91merror[0m[90m TS2339: [0mProperty 'userId' does not exist on type 'Request<ParamsDictionary, any, any, ParsedQs, Record<string, any>>'.
+
+[7m26[0m         req.userId = user!.id
+[7m  [0m [91m            ~~~~~~[0m
+
+    at createTSError (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:513:12)
+    at reportTSError (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:517:19)
+    at getOutput (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:752:36)
+    at Object.compile (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:968:32)
+    at Module.m._compile (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:1056:42)
+    at Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Object.require.extensions.(anonymous function) [as .ts] (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:1059:12)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+[2021-04-16 14:58:22] error uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/api/middlewares/authMidd.ts[0m:[93m26[0m:[93m13[0m - [91merror[0m[90m TS2339: [0mProperty 'userId' does not exist on type 'Request<ParamsDictionary, any, any, ParsedQs, Record<string, any>>'.
+
+[7m26[0m         req.userId = user!.id
+[7m  [0m [91m            ~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/api/middlewares/authMidd.ts[0m:[93m26[0m:[93m13[0m - [91merror[0m[90m TS2339: [0mProperty 'userId' does not exist on type 'Request<ParamsDictionary, any, any, ParsedQs, Record<string, any>>'.
+
+[7m26[0m         req.userId = user!.id
+[7m  [0m [91m            ~~~~~~[0m
+
+    at createTSError (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:513:12)
+    at reportTSError (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:517:19)
+    at getOutput (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:752:36)
+    at Object.compile (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:968:32)
+    at Module.m._compile (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:1056:42)
+    at Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Object.require.extensions.(anonymous function) [as .ts] (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:1059:12)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+[2021-04-16 14:58:37] error uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/api/middlewares/authMidd.ts[0m:[93m26[0m:[93m13[0m - [91merror[0m[90m TS2339: [0mProperty 'userId' does not exist on type 'Request<ParamsDictionary, any, any, ParsedQs, Record<string, any>>'.
+
+[7m26[0m         req.userId = user!.id
+[7m  [0m [91m            ~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/api/middlewares/authMidd.ts[0m:[93m26[0m:[93m13[0m - [91merror[0m[90m TS2339: [0mProperty 'userId' does not exist on type 'Request<ParamsDictionary, any, any, ParsedQs, Record<string, any>>'.
+
+[7m26[0m         req.userId = user!.id
+[7m  [0m [91m            ~~~~~~[0m
+
+    at createTSError (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:513:12)
+    at reportTSError (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:517:19)
+    at getOutput (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:752:36)
+    at Object.compile (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:968:32)
+    at Module.m._compile (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:1056:42)
+    at Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Object.require.extensions.(anonymous function) [as .ts] (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:1059:12)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+[2021-04-16 14:59:23] error uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/api/middlewares/authMidd.ts[0m:[93m26[0m:[93m13[0m - [91merror[0m[90m TS2339: [0mProperty 'userId' does not exist on type 'Request<ParamsDictionary, any, any, ParsedQs, Record<string, any>>'.
+
+[7m26[0m         req.userId = user!.id
+[7m  [0m [91m            ~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/api/middlewares/authMidd.ts[0m:[93m26[0m:[93m13[0m - [91merror[0m[90m TS2339: [0mProperty 'userId' does not exist on type 'Request<ParamsDictionary, any, any, ParsedQs, Record<string, any>>'.
+
+[7m26[0m         req.userId = user!.id
+[7m  [0m [91m            ~~~~~~[0m
+
+    at createTSError (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:513:12)
+    at reportTSError (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:517:19)
+    at getOutput (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:752:36)
+    at Object.compile (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:968:32)
+    at Module.m._compile (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:1056:42)
+    at Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Object.require.extensions.(anonymous function) [as .ts] (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:1059:12)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+[2021-04-16 15:01:38] error uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/api/middlewares/authMidd.ts[0m:[93m26[0m:[93m13[0m - [91merror[0m[90m TS2339: [0mProperty 'userId' does not exist on type 'Request<ParamsDictionary, any, any, ParsedQs, Record<string, any>>'.
+
+[7m26[0m         req.userId = user!.id
+[7m  [0m [91m            ~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/api/middlewares/authMidd.ts[0m:[93m26[0m:[93m13[0m - [91merror[0m[90m TS2339: [0mProperty 'userId' does not exist on type 'Request<ParamsDictionary, any, any, ParsedQs, Record<string, any>>'.
+
+[7m26[0m         req.userId = user!.id
+[7m  [0m [91m            ~~~~~~[0m
+
+    at createTSError (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:513:12)
+    at reportTSError (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:517:19)
+    at getOutput (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:752:36)
+    at Object.compile (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:968:32)
+    at Module.m._compile (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:1056:42)
+    at Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Object.require.extensions.(anonymous function) [as .ts] (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:1059:12)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+[2021-04-16 15:02:27] error uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/api/middlewares/authMidd.ts[0m:[93m26[0m:[93m13[0m - [91merror[0m[90m TS2339: [0mProperty 'userId' does not exist on type 'Request<ParamsDictionary, any, any, ParsedQs, Record<string, any>>'.
+
+[7m26[0m         req.userId = user!.id
+[7m  [0m [91m            ~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/api/middlewares/authMidd.ts[0m:[93m26[0m:[93m13[0m - [91merror[0m[90m TS2339: [0mProperty 'userId' does not exist on type 'Request<ParamsDictionary, any, any, ParsedQs, Record<string, any>>'.
+
+[7m26[0m         req.userId = user!.id
+[7m  [0m [91m            ~~~~~~[0m
+
+    at createTSError (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:513:12)
+    at reportTSError (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:517:19)
+    at getOutput (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:752:36)
+    at Object.compile (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:968:32)
+    at Module.m._compile (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:1056:42)
+    at Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Object.require.extensions.(anonymous function) [as .ts] (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:1059:12)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+[2021-04-16 15:07:37] error uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/api/middlewares/authMidd.ts[0m:[93m26[0m:[93m13[0m - [91merror[0m[90m TS2339: [0mProperty 'user' does not exist on type 'Request<ParamsDictionary, any, any, ParsedQs, Record<string, any>>'.
+
+[7m26[0m         req.user = {
+[7m  [0m [91m            ~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/api/middlewares/authMidd.ts[0m:[93m26[0m:[93m13[0m - [91merror[0m[90m TS2339: [0mProperty 'user' does not exist on type 'Request<ParamsDictionary, any, any, ParsedQs, Record<string, any>>'.
+
+[7m26[0m         req.user = {
+[7m  [0m [91m            ~~~~[0m
+
+    at createTSError (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:513:12)
+    at reportTSError (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:517:19)
+    at getOutput (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:752:36)
+    at Object.compile (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:968:32)
+    at Module.m._compile (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:1056:42)
+    at Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Object.require.extensions.(anonymous function) [as .ts] (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:1059:12)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+[2021-04-16 15:08:14] error uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/api/middlewares/authMidd.ts[0m:[93m26[0m:[93m13[0m - [91merror[0m[90m TS2339: [0mProperty 'user' does not exist on type 'Request<ParamsDictionary, any, any, ParsedQs, Record<string, any>>'.
+
+[7m26[0m         req.user = {
+[7m  [0m [91m            ~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/api/middlewares/authMidd.ts[0m:[93m26[0m:[93m13[0m - [91merror[0m[90m TS2339: [0mProperty 'user' does not exist on type 'Request<ParamsDictionary, any, any, ParsedQs, Record<string, any>>'.
+
+[7m26[0m         req.user = {
+[7m  [0m [91m            ~~~~[0m
+
+    at createTSError (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:513:12)
+    at reportTSError (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:517:19)
+    at getOutput (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:752:36)
+    at Object.compile (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:968:32)
+    at Module.m._compile (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:1056:42)
+    at Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Object.require.extensions.(anonymous function) [as .ts] (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:1059:12)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+[2021-04-16 15:14:17] error uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/api/middlewares/authMidd.ts[0m:[93m26[0m:[93m13[0m - [91merror[0m[90m TS2339: [0mProperty 'user' does not exist on type 'Request<ParamsDictionary, any, any, ParsedQs, Record<string, any>>'.
+
+[7m26[0m         req.user = {
+[7m  [0m [91m            ~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/api/middlewares/authMidd.ts[0m:[93m26[0m:[93m13[0m - [91merror[0m[90m TS2339: [0mProperty 'user' does not exist on type 'Request<ParamsDictionary, any, any, ParsedQs, Record<string, any>>'.
+
+[7m26[0m         req.user = {
+[7m  [0m [91m            ~~~~[0m
+
+    at createTSError (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:513:12)
+    at reportTSError (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:517:19)
+    at getOutput (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:752:36)
+    at Object.compile (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:968:32)
+    at Module.m._compile (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:1056:42)
+    at Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Object.require.extensions.(anonymous function) [as .ts] (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:1059:12)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+[2021-04-16 16:08:37] error uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/api/routes/config.routes.ts[0m:[93m3[0m:[93m20[0m - [91merror[0m[90m TS2307: [0mCannot find module '../../models/config' or its corresponding type declarations.
+
+[7m3[0m import Config from "../../models/config"
+[7m [0m [91m                   ~~~~~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/api/routes/config.routes.ts[0m:[93m3[0m:[93m20[0m - [91merror[0m[90m TS2307: [0mCannot find module '../../models/config' or its corresponding type declarations.
+
+[7m3[0m import Config from "../../models/config"
+[7m [0m [91m                   ~~~~~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:513:12)
+    at reportTSError (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:517:19)
+    at getOutput (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:752:36)
+    at Object.compile (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:968:32)
+    at Module.m._compile (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:1056:42)
+    at Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Object.require.extensions.(anonymous function) [as .ts] (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:1059:12)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+[2021-04-16 16:09:17] error uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/api/routes/config.routes.ts[0m:[93m3[0m:[93m20[0m - [91merror[0m[90m TS2307: [0mCannot find module '../../models/config' or its corresponding type declarations.
+
+[7m3[0m import Config from "../../models/config"
+[7m [0m [91m                   ~~~~~~~~~~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/api/routes/config.routes.ts[0m:[93m3[0m:[93m20[0m - [91merror[0m[90m TS2307: [0mCannot find module '../../models/config' or its corresponding type declarations.
+
+[7m3[0m import Config from "../../models/config"
+[7m [0m [91m                   ~~~~~~~~~~~~~~~~~~~~~[0m
+
+    at createTSError (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:513:12)
+    at reportTSError (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:517:19)
+    at getOutput (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:752:36)
+    at Object.compile (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:968:32)
+    at Module.m._compile (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:1056:42)
+    at Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Object.require.extensions.(anonymous function) [as .ts] (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:1059:12)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+[2021-04-16 16:27:03] error uncaughtException: Custom_config.belongsTo called with something that's not a subclass of Sequelize.Model
+Error: Custom_config.belongsTo called with something that's not a subclass of Sequelize.Model
+    at Function.<anonymous> (F:\node-projects\ts-mysql\node_modules\sequelize\lib\associations\mixin.js:93:13)
+    at Object.<anonymous> (F:\node-projects\ts-mysql\src\models\custom_config.ts:51:15)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Module.m._compile (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:1056:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Object.require.extensions.(anonymous function) [as .ts] (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:1059:12)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+[2021-04-16 17:06:26] error uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/models/user.ts[0m:[93m94[0m:[93m6[0m - [91merror[0m[90m TS2540: [0mCannot assign to 'associations' because it is a read-only property.
+
+[7m94[0m User.associations =
+[7m  [0m [91m     ~~~~~~~~~~~~[0m
+[96msrc/models/user.ts[0m:[93m97[0m:[93m1[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m97[0m export default User
+[7m  [0m [91m~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/models/user.ts[0m:[93m94[0m:[93m6[0m - [91merror[0m[90m TS2540: [0mCannot assign to 'associations' because it is a read-only property.
+
+[7m94[0m User.associations =
+[7m  [0m [91m     ~~~~~~~~~~~~[0m
+[96msrc/models/user.ts[0m:[93m97[0m:[93m1[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m97[0m export default User
+[7m  [0m [91m~~~~~~[0m
+
+    at createTSError (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:513:12)
+    at reportTSError (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:517:19)
+    at getOutput (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:752:36)
+    at Object.compile (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:968:32)
+    at Module.m._compile (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:1056:42)
+    at Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Object.require.extensions.(anonymous function) [as .ts] (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:1059:12)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+[2021-04-16 17:10:48] error uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/models/user.ts[0m:[93m94[0m:[93m6[0m - [91merror[0m[90m TS2540: [0mCannot assign to 'associations' because it is a read-only property.
+
+[7m94[0m User.associations = (model) =>{
+[7m  [0m [91m     ~~~~~~~~~~~~[0m
+[96msrc/models/user.ts[0m:[93m94[0m:[93m22[0m - [91merror[0m[90m TS7006: [0mParameter 'model' implicitly has an 'any' type.
+
+[7m94[0m User.associations = (model) =>{
+[7m  [0m [91m                     ~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/models/user.ts[0m:[93m94[0m:[93m6[0m - [91merror[0m[90m TS2540: [0mCannot assign to 'associations' because it is a read-only property.
+
+[7m94[0m User.associations = (model) =>{
+[7m  [0m [91m     ~~~~~~~~~~~~[0m
+[96msrc/models/user.ts[0m:[93m94[0m:[93m22[0m - [91merror[0m[90m TS7006: [0mParameter 'model' implicitly has an 'any' type.
+
+[7m94[0m User.associations = (model) =>{
+[7m  [0m [91m                     ~~~~~[0m
+
+    at createTSError (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:513:12)
+    at reportTSError (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:517:19)
+    at getOutput (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:752:36)
+    at Object.compile (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:968:32)
+    at Module.m._compile (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:1056:42)
+    at Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Object.require.extensions.(anonymous function) [as .ts] (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:1059:12)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+[2021-04-16 17:11:52] error uncaughtException: Unknown attribute "user_id" passed as sourceKey, define this attribute on model "User" first
+Error: Unknown attribute "user_id" passed as sourceKey, define this attribute on model "User" first
+    at new HasOne (F:\node-projects\ts-mysql\node_modules\sequelize\lib\associations\has-one.js:55:13)
+    at Function.<anonymous> (F:\node-projects\ts-mysql\node_modules\sequelize\lib\associations\mixin.js:105:25)
+    at Object.<anonymous> (F:\node-projects\ts-mysql\src\models\user.ts:95:6)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Module.m._compile (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:1056:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Object.require.extensions.(anonymous function) [as .ts] (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:1059:12)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+[2021-04-16 17:14:53] error uncaughtException: Custom_config.belongsTo called with something that's not a subclass of Sequelize.Model
+Error: Custom_config.belongsTo called with something that's not a subclass of Sequelize.Model
+    at Function.<anonymous> (F:\node-projects\ts-mysql\node_modules\sequelize\lib\associations\mixin.js:93:13)
+    at Object.<anonymous> (F:\node-projects\ts-mysql\src\models\custom_config.ts:51:15)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Module.m._compile (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:1056:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Object.require.extensions.(anonymous function) [as .ts] (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:1059:12)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+[2021-04-16 17:41:41] error uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/api/routes/config.routes.ts[0m:[93m11[0m:[93m32[0m - [91merror[0m[90m TS2304: [0mCannot find name 'Confi'.
+
+[7m11[0m             const user = await Confi
+[7m  [0m [91m                               ~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/api/routes/config.routes.ts[0m:[93m11[0m:[93m32[0m - [91merror[0m[90m TS2304: [0mCannot find name 'Confi'.
+
+[7m11[0m             const user = await Confi
+[7m  [0m [91m                               ~~~~~[0m
+
+    at createTSError (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:513:12)
+    at reportTSError (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:517:19)
+    at getOutput (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:752:36)
+    at Object.compile (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:968:32)
+    at Module.m._compile (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:1056:42)
+    at Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Object.require.extensions.(anonymous function) [as .ts] (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:1059:12)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+[2021-04-16 17:45:22] error uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/api/routes/config.routes.ts[0m:[93m21[0m:[93m51[0m - [91merror[0m[90m TS2304: [0mCannot find name 'user'.
+
+[7m21[0m                 .json(buildDataResponse(" test ", user));
+[7m  [0m [91m                                                  ~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/api/routes/config.routes.ts[0m:[93m21[0m:[93m51[0m - [91merror[0m[90m TS2304: [0mCannot find name 'user'.
+
+[7m21[0m                 .json(buildDataResponse(" test ", user));
+[7m  [0m [91m                                                  ~~~~[0m
+
+    at createTSError (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:513:12)
+    at reportTSError (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:517:19)
+    at getOutput (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:752:36)
+    at Object.compile (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:968:32)
+    at Module.m._compile (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:1056:42)
+    at Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Object.require.extensions.(anonymous function) [as .ts] (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:1059:12)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+[2021-04-16 17:49:08] error uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/api/routes/config.routes.ts[0m:[93m21[0m:[93m51[0m - [91merror[0m[90m TS2304: [0mCannot find name 'user'.
+
+[7m21[0m                 .json(buildDataResponse(" test ", user));
+[7m  [0m [91m                                                  ~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/api/routes/config.routes.ts[0m:[93m21[0m:[93m51[0m - [91merror[0m[90m TS2304: [0mCannot find name 'user'.
+
+[7m21[0m                 .json(buildDataResponse(" test ", user));
+[7m  [0m [91m                                                  ~~~~[0m
+
+    at createTSError (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:513:12)
+    at reportTSError (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:517:19)
+    at getOutput (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:752:36)
+    at Object.compile (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:968:32)
+    at Module.m._compile (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:1056:42)
+    at Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Object.require.extensions.(anonymous function) [as .ts] (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:1059:12)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+[2021-04-16 17:49:34] error uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/api/routes/config.routes.ts[0m:[93m21[0m:[93m51[0m - [91merror[0m[90m TS2304: [0mCannot find name 'user'.
+
+[7m21[0m                 .json(buildDataResponse(" test ", user));
+[7m  [0m [91m                                                  ~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/api/routes/config.routes.ts[0m:[93m21[0m:[93m51[0m - [91merror[0m[90m TS2304: [0mCannot find name 'user'.
+
+[7m21[0m                 .json(buildDataResponse(" test ", user));
+[7m  [0m [91m                                                  ~~~~[0m
+
+    at createTSError (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:513:12)
+    at reportTSError (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:517:19)
+    at getOutput (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:752:36)
+    at Object.compile (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:968:32)
+    at Module.m._compile (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:1056:42)
+    at Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Object.require.extensions.(anonymous function) [as .ts] (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:1059:12)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+[2021-04-16 17:57:19] error uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/api/routes/config.routes.ts[0m:[93m14[0m:[93m13[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m14[0m             return res
+[7m  [0m [91m            ~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/api/routes/config.routes.ts[0m:[93m14[0m:[93m13[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m14[0m             return res
+[7m  [0m [91m            ~~~~~~[0m
+
+    at createTSError (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:513:12)
+    at reportTSError (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:517:19)
+    at getOutput (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:752:36)
+    at Object.compile (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:968:32)
+    at Module.m._compile (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:1056:42)
+    at Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Object.require.extensions.(anonymous function) [as .ts] (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:1059:12)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+[2021-04-16 17:58:51] error page not found
+[2021-04-16 18:00:20] error uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/api/services/custom_config.service.ts[0m:[93m29[0m:[93m13[0m - [91merror[0m[90m TS2551: [0mProperty 'factor_authorization' does not exist on type 'Custom_config'. Did you mean 'factor_authentication'?
+
+[7m29[0m     config!.factor_authorization = data.factor_authorization
+[7m  [0m [91m            ~~~~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/models/custom_config.ts[0m:[93m15[0m:[93m5[0m
+    [7m15[0m     factor_authentication!: string;
+    [7m  [0m [96m    ~~~~~~~~~~~~~~~~~~~~~[0m
+    'factor_authentication' is declared here.
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/api/services/custom_config.service.ts[0m:[93m29[0m:[93m13[0m - [91merror[0m[90m TS2551: [0mProperty 'factor_authorization' does not exist on type 'Custom_config'. Did you mean 'factor_authentication'?
+
+[7m29[0m     config!.factor_authorization = data.factor_authorization
+[7m  [0m [91m            ~~~~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/models/custom_config.ts[0m:[93m15[0m:[93m5[0m
+    [7m15[0m     factor_authentication!: string;
+    [7m  [0m [96m    ~~~~~~~~~~~~~~~~~~~~~[0m
+    'factor_authentication' is declared here.
+
+    at createTSError (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:513:12)
+    at reportTSError (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:517:19)
+    at getOutput (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:752:36)
+    at Object.compile (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:968:32)
+    at Module.m._compile (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:1056:42)
+    at Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Object.require.extensions.(anonymous function) [as .ts] (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:1059:12)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+[2021-04-16 18:11:10] error config already exists
+[2021-04-16 18:21:46] error can't access: please, verify your email
+[2021-04-16 18:29:31] error uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/models/custom_config.ts[0m:[93m14[0m:[93m5[0m - [91merror[0m[90m TS2416: [0mProperty 'code' in type 'Custom_config' is not assignable to the same property in base type 'IConfig'.
+  Type 'string | null | undefined' is not assignable to type 'string'.
+    Type 'undefined' is not assignable to type 'string'.
+
+[7m14[0m     code?: string | null;
+[7m  [0m [91m    ~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/models/custom_config.ts[0m:[93m14[0m:[93m5[0m - [91merror[0m[90m TS2416: [0mProperty 'code' in type 'Custom_config' is not assignable to the same property in base type 'IConfig'.
+  Type 'string | null | undefined' is not assignable to type 'string'.
+    Type 'undefined' is not assignable to type 'string'.
+
+[7m14[0m     code?: string | null;
+[7m  [0m [91m    ~~~~[0m
+
+    at createTSError (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:513:12)
+    at reportTSError (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:517:19)
+    at getOutput (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:752:36)
+    at Object.compile (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:968:32)
+    at Module.m._compile (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:1056:42)
+    at Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Object.require.extensions.(anonymous function) [as .ts] (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:1059:12)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+[2021-04-16 18:30:22] error uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/models/custom_config.ts[0m:[93m14[0m:[93m5[0m - [91merror[0m[90m TS2416: [0mProperty 'code' in type 'Custom_config' is not assignable to the same property in base type 'IConfig'.
+  Type 'string | null' is not assignable to type 'string'.
+    Type 'null' is not assignable to type 'string'.
+
+[7m14[0m     code: string | null ;
+[7m  [0m [91m    ~~~~[0m
+[96msrc/models/custom_config.ts[0m:[93m14[0m:[93m5[0m - [91merror[0m[90m TS2564: [0mProperty 'code' has no initializer and is not definitely assigned in the constructor.
+
+[7m14[0m     code: string | null ;
+[7m  [0m [91m    ~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/models/custom_config.ts[0m:[93m14[0m:[93m5[0m - [91merror[0m[90m TS2416: [0mProperty 'code' in type 'Custom_config' is not assignable to the same property in base type 'IConfig'.
+  Type 'string | null' is not assignable to type 'string'.
+    Type 'null' is not assignable to type 'string'.
+
+[7m14[0m     code: string | null ;
+[7m  [0m [91m    ~~~~[0m
+[96msrc/models/custom_config.ts[0m:[93m14[0m:[93m5[0m - [91merror[0m[90m TS2564: [0mProperty 'code' has no initializer and is not definitely assigned in the constructor.
+
+[7m14[0m     code: string | null ;
+[7m  [0m [91m    ~~~~[0m
+
+    at createTSError (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:513:12)
+    at reportTSError (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:517:19)
+    at getOutput (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:752:36)
+    at Object.compile (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:968:32)
+    at Module.m._compile (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:1056:42)
+    at Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Object.require.extensions.(anonymous function) [as .ts] (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:1059:12)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+[2021-04-16 18:53:41] error factor authorization required phone number
+[2021-04-16 18:53:54] error code is required
+[2021-04-16 18:53:58] error code is required
+[2021-04-16 18:55:26] error code is required
+[2021-04-16 18:56:28] error code is required
+[2021-04-16 19:23:58] info send sms to login: +5493795070017
+[2021-04-16 19:23:58] error Error sent sms to +5493795070017: There were 2 validation errors:
+* UnexpectedParameter: Unexpected key 'Message' found in params
+* UnexpectedParameter: Unexpected key 'PhoneNumber' found in params
+[2021-04-16 19:25:03] error code is required
+[2021-04-16 19:25:06] info send sms to login: +5493795070017
+[2021-04-16 19:25:07] info sms sent to +5493795070017: d5a56119-a326-51e7-8de9-39edb3d572e7
+[2021-04-16 19:32:18] error uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/api/services/user.service.ts[0m:[93m18[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'User | null' is not assignable to type 'User'.
+  Type 'null' is not assignable to type 'User'.
+
+[7m18[0m     return await User.findOne({where: {id}});
+[7m  [0m [91m    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96msrc/api/services/user.service.ts[0m:[93m18[0m:[93m40[0m - [91merror[0m[90m TS18004: [0mNo value exists in scope for the shorthand property 'id'. Either declare one or provide an initializer.
+
+[7m18[0m     return await User.findOne({where: {id}});
+[7m  [0m [91m                                       ~~[0m
+[96msrc/api/services/user.service.ts[0m:[93m15[0m:[93m16[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m15[0m         return throw ErrorResponse.notFound("user not found.");
+[7m  [0m [91m               ~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/api/services/user.service.ts[0m:[93m18[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'User | null' is not assignable to type 'User'.
+  Type 'null' is not assignable to type 'User'.
+
+[7m18[0m     return await User.findOne({where: {id}});
+[7m  [0m [91m    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96msrc/api/services/user.service.ts[0m:[93m18[0m:[93m40[0m - [91merror[0m[90m TS18004: [0mNo value exists in scope for the shorthand property 'id'. Either declare one or provide an initializer.
+
+[7m18[0m     return await User.findOne({where: {id}});
+[7m  [0m [91m                                       ~~[0m
+[96msrc/api/services/user.service.ts[0m:[93m15[0m:[93m16[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m15[0m         return throw ErrorResponse.notFound("user not found.");
+[7m  [0m [91m               ~~~~~[0m
+
+    at createTSError (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:513:12)
+    at reportTSError (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:517:19)
+    at getOutput (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:752:36)
+    at Object.compile (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:968:32)
+    at Module.m._compile (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:1056:42)
+    at Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Object.require.extensions.(anonymous function) [as .ts] (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:1059:12)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+[2021-04-16 19:33:24] error uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/api/services/user.service.ts[0m:[93m19[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'User | null' is not assignable to type 'User'.
+  Type 'null' is not assignable to type 'User'.
+
+[7m19[0m     return await User.findOne({where: {id}});
+[7m  [0m [91m    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96msrc/api/services/user.service.ts[0m:[93m19[0m:[93m40[0m - [91merror[0m[90m TS18004: [0mNo value exists in scope for the shorthand property 'id'. Either declare one or provide an initializer.
+
+[7m19[0m     return await User.findOne({where: {id}});
+[7m  [0m [91m                                       ~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/api/services/user.service.ts[0m:[93m19[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType 'User | null' is not assignable to type 'User'.
+  Type 'null' is not assignable to type 'User'.
+
+[7m19[0m     return await User.findOne({where: {id}});
+[7m  [0m [91m    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96msrc/api/services/user.service.ts[0m:[93m19[0m:[93m40[0m - [91merror[0m[90m TS18004: [0mNo value exists in scope for the shorthand property 'id'. Either declare one or provide an initializer.
+
+[7m19[0m     return await User.findOne({where: {id}});
+[7m  [0m [91m                                       ~~[0m
+
+    at createTSError (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:513:12)
+    at reportTSError (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:517:19)
+    at getOutput (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:752:36)
+    at Object.compile (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:968:32)
+    at Module.m._compile (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:1056:42)
+    at Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Object.require.extensions.(anonymous function) [as .ts] (F:\node-projects\ts-mysql\node_modules\ts-node\src\index.ts:1059:12)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)

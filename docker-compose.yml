@@ -1,0 +1,19 @@
+version: "3"
+services:
+  auth:
+    container_name: auth-api
+    restart: always
+    build: .
+
+    ports:
+    - "5000:3000"
+
+    links:
+      - mongo
+
+  mongo:
+    container_name: mongodatabase
+    image: mongo
+    ports:
+    - "27018:27017"
+

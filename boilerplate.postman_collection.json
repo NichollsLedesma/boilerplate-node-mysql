@@ -1,0 +1,229 @@
+{
+	"info": {
+		"_postman_id": "48ee2040-6ce0-4ce9-bbd9-f2ff0069d7cd",
+		"name": "boilerplate",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "auth",
+			"item": [
+				{
+					"name": "register",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\":\"nicoledesma36@gmail.com\",\r\n    \"password\":\"asdasd\",\r\n    \"first_name\":\"Nico\",\r\n    \"last_name\":\"Ledesma\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{server}}/api/v1/auth/register",
+							"host": [
+								"{{server}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"auth",
+								"register"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "send email activation",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{server}}/api/v1/auth/send-activation-email/nicoledesma36@gmail.com",
+							"host": [
+								"{{server}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"auth",
+								"send-activation-email",
+								"nicoledesma36@gmail.com"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "active account",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{server}}/api/v1/auth/confirm-activation-email?email=nicoledesma36@gmail.com&code=gWbZfCGNPCvk",
+							"host": [
+								"{{server}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"auth",
+								"confirm-activation-email"
+							],
+							"query": [
+								{
+									"key": "email",
+									"value": "nicoledesma36@gmail.com"
+								},
+								{
+									"key": "code",
+									"value": "gWbZfCGNPCvk"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "me",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{server}}/api/v1/auth/me",
+							"host": [
+								"{{server}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"auth",
+								"me"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "login",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\":\"nicoledesma36@gmail.com\",\r\n    \"password\": \"asdasd\",\r\n    \"code\": \"XP1f2\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{server}}/api/v1/auth/login",
+							"host": [
+								"{{server}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"auth",
+								"login"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "update config",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{token}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"factor_authorization\": \"email\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{server}}/api/v1/config",
+					"host": [
+						"{{server}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"config"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "updateInfo",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{token}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"first_name\":\"Nico\",\r\n    \"last_name\":\"Ledesma\",\r\n    \"phone_number\":\"+549795070017\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{server}}/api/v1/users",
+					"host": [
+						"{{server}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"users"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
